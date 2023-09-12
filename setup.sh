@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-DOCKER_VOLUME="/volume1/docker"
+DOCKER_VOLUME="/volume3/docker"
 PROMETHEUS_ROOT="${DOCKER_VOLUME}/prometheus"
 
 [ ! -d ${PROMETHEUS_ROOT} ] && mkdir -p ${PROMETHEUS_ROOT} \
